@@ -1,0 +1,28 @@
+@import url("https://fonts.cdnfonts.com/css/alarm-clock");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #188392;
+}
+
+.clock {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.display {
+  background-color: black;
+  font-size: 100px;
+  color: #4fda3c;
+  border: 10px solid #dad8d8;
+  border-radius: 20px;
+  padding: 100px;
+  font-family: "alarm clock", sans-serif;
+}
