@@ -10,16 +10,32 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar"></nav>
+  <header class="header">
+    <h1>Relogio Digital</h1>
+    <nav class="navbar">
+      <div class="tabs">
+        <button class="tab-button" onclick="option('clock')">Relogio</button>
+        <button class="tab-button" onclick="option('chronometer')">Cronometro</button>
+        <button class="tab-button" onclick="option('timer')">Temporizador</button>
+      </div>
+    </nav>
   </header>
   <main class="main">
-    <div class="clock">
+    <div class="clock digital" id="clock">
+      <div class="display">00:00:00</div>
+    </div>
+    <div class="digital" id="chronometer">
+      <div class="display">00:00:00</div>
+      <!-- <button class="btn-chrono">START</button>
+      <button class="btn-chrono">PAUSE</button>
+      <button class="btn-chrono">STOP</button> -->
+    </div>
+    <div class="digital" id="timer">
       <div class="display">00:00:00</div>
     </div>
   </main>
   <footer class="footer">
-    <div class="footer-container">
+    <div class="footer footer-container">
       <p class="footer-copy">by Jairon Rodrigo &copy; todos os direitos reservados - 2023</p>
     </div>
   </footer>

@@ -1,3 +1,12 @@
+function option(clockOption) {
+  let i;
+  let x = document.getElementsByClassName("digital");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(clockOption).style.display = "flex";
+}
+
 function digitalClock() {
   const clock = document.querySelector(".display");
   const date = new Date();
