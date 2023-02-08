@@ -1,3 +1,4 @@
+// Navbar tabs
 function option(clockOption) {
   let i;
   let x = document.getElementsByClassName("digital");
@@ -7,6 +8,7 @@ function option(clockOption) {
   document.getElementById(clockOption).style.display = "flex";
 }
 
+// Clock
 function digitalClock() {
   const clock = document.querySelector(".display");
   const date = new Date();
@@ -19,7 +21,6 @@ function digitalClock() {
 
   clock.textContent = hours;
 }
-
 function zero(number) {
   if (number < 10) {
     number = "0" + number;

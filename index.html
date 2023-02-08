@@ -25,10 +25,12 @@
       <div class="display">00:00:00</div>
     </div>
     <div class="digital" id="chronometer">
-      <div class="display">00:00:00</div>
-      <!-- <button class="btn-chrono">START</button>
-      <button class="btn-chrono">PAUSE</button>
-      <button class="btn-chrono">STOP</button> -->
+      <div class="display">
+        <p id="chrono">00:00:00</p>
+        <button class="btn-start" onclick="start()">START</button>
+        <button class=" btn-pause" onclick="pause()">PAUSE</button>
+        <button class="btn-stop" onclick="stop()">STOP</button>
+      </div>
     </div>
     <div class="digital" id="timer">
       <div class="display">00:00:00</div>
@@ -41,6 +43,7 @@
   </footer>
 
   <script src="./script.js"></script>
+  <script src="./chrono.js"></script>
 </body>
 
 

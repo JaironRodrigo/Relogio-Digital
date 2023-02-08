@@ -64,40 +64,64 @@ body {
 #chronometer {
   display: none;
   margin-top: 10%;
-  display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#chrono {
+  text-align: center;
+}
+
+.btn-start {
+  background-color: #4fda3c;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.btn-start:hover {
+  border: 2px solid #4fda3c;
+  background-color: white;
+  color: #4fda3c;
+}
+
+.btn-pause {
+  background-color: #797d7c;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.btn-pause:hover {
+  border: 2px solid #797d7c;
+  background-color: white;
+  color: #797d7c;
+}
+
+.btn-stop {
+  background-color: #fa1111;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.btn-stop:hover {
+  border: 2px solid #fa1111;
+  background-color: white;
+  color: #fa1111;
 }
 
 #timer {
   display: none;
   margin-top: 10%;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .display {
-  background-color: black;
-  font-size: 100px;
-  color: #4fda3c;
-  border: 10px solid #dad8d8;
-  border-radius: 20px;
-  padding: 100px;
-  font-family: "alarm clock", sans-serif;
-}
-
-.display-2 {
-  background-color: black;
-  font-size: 100px;
-  color: #4fda3c;
-  border: 10px solid #dad8d8;
-  border-radius: 20px;
-  padding: 100px;
-  font-family: "alarm clock", sans-serif;
-}
-
-.display-3 {
   background-color: black;
   font-size: 100px;
   color: #4fda3c;
