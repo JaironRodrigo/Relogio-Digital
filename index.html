@@ -33,7 +33,13 @@
       </div>
     </div>
     <div class="digital" id="timer">
-      <div class="display">00:00:00</div>
+      <div class="display">
+        <p id="time">00:00:00</p>
+        <input type="number" id="hourTimer" name="dataTimer" min="0" class="dataTimer">
+        <input type="number" id="minTimer" name="dataTimer" min="0" class="dataTimer">
+        <input type="number" id="secTimer" name="dataTimer" min="0" class="dataTimer">
+        <button class="playTimer">Iniciar</button>
+      </div>
     </div>
   </main>
   <footer class="footer">

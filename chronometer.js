@@ -29,7 +29,6 @@ function time() {
 function start() {
   time();
   chronometer = setTimeout(start, 1000);
-  preventDefault(start);
 }
 
 function pause() {
