@@ -1,0 +1,104 @@
+#chronometer {
+  display: none;
+  margin-top: 6%;
+  align-items: center;
+  justify-content: center;
+}
+
+#chrono {
+  text-align: center;
+}
+
+.btn-start {
+  background-color: #4fda3c;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.btn-start:hover {
+  border: 2px solid #4fda3c;
+  background-color: white;
+  color: #4fda3c;
+}
+
+.btn-pause {
+  background-color: #797d7c;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.btn-pause:hover {
+  border: 2px solid #797d7c;
+  background-color: white;
+  color: #797d7c;
+}
+
+.btn-stop {
+  background-color: #fa1111;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.btn-stop:hover {
+  border: 2px solid #fa1111;
+  background-color: white;
+  color: #fa1111;
+}
+
+@media (max-width: 650px) {
+  #chronometer {
+    margin-top: 20%;
+  }
+
+  .btn-start {
+    padding: 15px;
+  }
+
+  .btn-pause {
+    padding: 15px;
+  }
+
+  .btn-stop {
+    padding: 15px;
+  }
+}
+@media (max-width: 536px) {
+  .btn-start {
+    padding: 10px;
+    font-size: 10px;
+  }
+
+  .btn-pause {
+    padding: 10px;
+    font-size: 10px;
+  }
+
+  .btn-stop {
+    padding: 10px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 393px) {
+  #chronometer {
+    margin-top: 60%;
+  }
+
+  .btn-start {
+    padding: 6px;
+  }
+
+  .btn-pause {
+    padding: 6px;
+  }
+
+  .btn-stop {
+    padding: 6px;
+  }
+}

@@ -1,0 +1,79 @@
+#timer {
+  display: none;
+  margin-top: 6%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.dataTimer {
+  background-color: #4fda3c;
+  font-size: 20px;
+  width: 45px;
+  text-align: center;
+}
+
+#playTimer {
+  display: flex;
+  margin-left: 40%;
+  background-color: #fa1111;
+  color: #dad8d8;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+#playTimer:hover {
+  background-color: #000000;
+  border: 2px solid #fa1111;
+}
+
+.btnTimer {
+  width: 20px;
+}
+
+@media (max-width: 650px) {
+  #timer {
+    margin-top: 20%;
+  }
+  #playTimer {
+    margin-left: 38%;
+    padding: 15px;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 536px) {
+  #playTimer {
+    margin-left: 33%;
+    margin-top: 5%;
+    padding: 8px;
+    border-radius: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .btnTimer {
+    width: 15px;
+  }
+}
+
+@media (max-width: 393px) {
+  #timer {
+    margin-top: 40%;
+  }
+
+  #playTimer {
+    margin-left: 35%;
+    margin-top: 5%;
+    padding: 5px;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .btnTimer {
+    width: 10px;
+  }
+}

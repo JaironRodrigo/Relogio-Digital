@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
   <title>Relógio</title>
 </head>
 
@@ -34,22 +34,23 @@
     </div>
     <div class="digital" id="timer">
       <div class="display">
-        <p id="time">00:00:00</p>
-        <input type="number" id="hourTimer" name="dataTimer" min="0" class="dataTimer">
-        <input type="number" id="minTimer" name="dataTimer" min="0" class="dataTimer">
-        <input type="number" id="secTimer" name="dataTimer" min="0" class="dataTimer">
-        <button class="playTimer">Iniciar</button>
+        <p id="clockTimer">00:00:00</p>
+        <input type="number" id="hourTimer" name="dataTimer" min="0" class="dataTimer" value="0">
+        <input type="number" id="minTimer" name="dataTimer" min="0" class="dataTimer" value="0">
+        <input type="number" id="secTimer" name="dataTimer" min="0" class="dataTimer" value="0">
+        <button id="playTimer"><img src="./assets/images/toque.png" alt="" class="btnTimer"></button>
       </div>
     </div>
   </main>
   <footer class="footer">
     <div class="footer footer-container">
-      <p class="footer-copy">by Jairon Rodrigo &copy; todos os direitos reservados - 2023</p>
+      <p class="footer-copy">by Jairon Rodrigo &copy; 2023</p>
     </div>
   </footer>
 
-  <script src="./script.js"></script>
-  <script src="./chrono.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/chronometer.js"></script>
+  <script src="./assets/js/timer.js"></script>
 </body>
 
 
