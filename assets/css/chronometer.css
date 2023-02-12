@@ -57,12 +57,6 @@
   }
 }
 
-@media (max-height: 768px) and (max-width: 1366px) {
-  #chronometer {
-    margin-top: 5%;
-  }
-}
-
 @media (max-width: 650px) {
   #chronometer {
     margin-top: 20%;
