@@ -58,7 +58,18 @@
   }
 }
 
-@media (max-height: 1024px) {
+@media (max-height: 1024px) and (min-height: 771px) {
+  #timer {
+    margin-top: 3%;
+  }
+  #playTimer {
+    margin-top: 1%;
+    margin-left: 39%;
+    padding: 10px;
+    border-radius: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }
 
 @media (max-width: 536px) {
