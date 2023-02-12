@@ -93,6 +93,32 @@ body {
   margin-bottom: 0;
 }
 
+@media (max-height: 768px) and (max-width: 1440px) {
+  .clock {
+    margin-top: 5%;
+  }
+
+  .display {
+    font-size: 70px;
+    border: 10px solid #dad8d8;
+    border-radius: 20px;
+    padding: 90px;
+  }
+}
+
+@media (max-height: 768px) and (max-width: 1366px) {
+  .clock {
+    margin-top: 5%;
+  }
+
+  .display {
+    font-size: 70px;
+    border: 10px solid #dad8d8;
+    border-radius: 20px;
+    padding: 90px;
+  }
+}
+
 @media (max-width: 650px) {
   .clock {
     margin-top: 20%;
